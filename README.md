@@ -13,7 +13,7 @@ Read me file uses markdown syntax to edit eny text, formulas or codes.
 3. My own social network
 
 ## My favorite part of code
-'''java
+```java
 double temp = - 7.5;
     if(temp <= 5){
       System.out.println("Wear super warm");
@@ -25,4 +25,4 @@ double temp = - 7.5;
           } 
     else {
       System.out.println("You need cooling");
-      '''
+      ```
