@@ -1,5 +1,4 @@
-```java
-public class Main {
+```javapublic class Main {
   public static void main(String[] args) {
 
     String season = "Winter";//"Else-if" structure optimises code. Saves time on running code.
