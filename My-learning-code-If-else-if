@@ -2,7 +2,7 @@
 public class Main {
   public static void main(String[] args) {
 
-    String season = "Winter";
+    String season = "Winter";//"Else-if" structure optimises code. Saves time on running code.
     if (season == "Winter") {
       System.out.println("Wear a warm jacket!");
     } else if (season == "Spring") {
