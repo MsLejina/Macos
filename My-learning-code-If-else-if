@@ -25,7 +25,19 @@ if (temp <= 5) {
 } else {
   System.out.println("You need cooling!");
   }
+# This is just an example to show that String messsage needs to be within the scope.
+ double temp = -2;
     
+if (temp <= 5) {
+  String message = "The weather is good outside!"; 
+  System.out.println(message);
+} else if (temp <= 15) {
+  System.out.println(message);
+} else if (temp <= 30) {
+  System.out.println(message);
+} else {
+  System.out.println(message);
+  }
    
   
   }
